@@ -1,29 +1,15 @@
-# Ruboty::LetsChat
-
-TODO: Write a gem description
-
-## Installation
-
-Add this line to your application's Gemfile:
-
-    gem 'ruboty-lets_chat'
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install ruboty-lets_chat
+# Ruboty::Hipchat
+[Let's Chat](https://github.com/sdelements/lets-chat) adapter for [Ruboty](https://github.com/r7kamura/ruboty).
 
 ## Usage
+```ruby
+# Gemfile
+gem "ruboty-lets_chat"
+```
 
-TODO: Write usage instructions here
-
-## Contributing
-
-1. Fork it ( https://github.com/[my-github-username]/ruboty-lets_chat/fork )
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create a new Pull Request
+## ENV
+```
+LCB_URL              - Let's Chat URL (default: http://localhost:5000)
+LCB_TOKEN            - Let's Chat API Token
+LCB_ROOMS            - Let's Chat Room Ids (separated by comma)
+```
