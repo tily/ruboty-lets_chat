@@ -1,4 +1,4 @@
-# Ruboty::Hipchat
+# Ruboty::LetsChat
 [Let's Chat](https://github.com/sdelements/lets-chat) adapter for [Ruboty](https://github.com/r7kamura/ruboty).
 
 ## Usage
