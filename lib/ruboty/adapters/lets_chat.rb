@@ -44,7 +44,7 @@ module Ruboty
           # TODO: handle error
         end
 
-        loop {}
+        loop { sleep 60 }
       rescue Interrupt
         exit
       end
